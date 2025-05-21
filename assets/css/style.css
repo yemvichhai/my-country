@@ -1,0 +1,69 @@
+ body {
+    .city {
+        background-color: red;
+    }
+
+    .people {
+        background-color: blue;
+    }
+
+    .currency {
+        background-color: blueviolet;
+    }
+
+    .food {
+        background-color: aqua;
+    }
+
+    .language {
+        background-color: chartreuse;
+    }
+
+    .famous-people {
+        background-color: rgb(210, 117, 30);
+    }
+}
+
+img {
+    max-width: 100%;
+    width: 100%;
+}
+
+.box-wrapper {
+    display: flex;
+    justify-content: space-around;
+    align-items: stretch;
+}
+
+.box {
+    width: 30%;
+    padding: 10px;
+    text-align: center;
+    box-sizing: border-box;
+    box-shadow: 10px 5px 5px gray;
+    border: 1px solid gray;
+}
+
+.box img {
+    height: 300px;
+    width: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+header{
+    text-align: center;
+}
+
+.m-10{
+    margin: 10px;
+    margin: 100px 10px 10px 10px
+}
+
+.mt-10{
+    margin-top: 10px;
+}
+
+.mb-10{
+    margin-bottom: 10;
+}
